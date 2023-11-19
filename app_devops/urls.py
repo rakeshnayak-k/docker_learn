@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import f1
+from .views import func_based_view
 
 urlpatterns = [
-    path('f1/', f1, name='f1'),
+    path('f1/', func_based_view, name='f1'),
 ]
